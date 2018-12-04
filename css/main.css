@@ -1,0 +1,2114 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 auto;
+    max-width: 2000px;
+    min-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cont {
+    margin: 0 auto;
+    padding: 0 10% 0 10%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/**********************************  herder ********************************/
+header {
+    height: 120px;
+    background: url("../img/q1.png") center;
+    cursor: pointer;
+}
+
+/***********************************  main第一部分(1)  **********************************/
+main .enter {
+    height: 40px;
+    background: #333;
+}
+
+main .enter ul {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+
+main .enter .left li {
+    float: left;
+    padding: 0 5px;
+    margin-top: 13px;
+    height: 13px;
+    line-height: 13px;
+    border-left: 1px solid #555;
+}
+
+main .enter .left {
+    width: 550px;
+}
+
+main .enter .left li:first-child {
+    border-left: 0;
+}
+
+main .enter .left li a {
+    color: #999;
+    font-size: 13px;
+}
+
+main .enter .left li a:hover {
+    color: #ddd;
+}
+
+/************************************  main第一部分(2)   ********************************/
+main .enter .right {
+    float: right;
+    width: 250px;
+}
+
+main .enter .right li {
+    float: left;
+    padding: 0 5px;
+    margin-top: 13px;
+    height: 13px;
+    line-height: 13px;
+    border-left: 1px solid #555;
+}
+
+main .enter .right li:first-child {
+    border-left: 0;
+}
+
+main .enter .right li:nth-child(3) {
+    margin-right: 10px;
+}
+
+main .enter .right .shop {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 0 0 10px;
+    background: rgba(150, 150, 150, .4);
+    border-left: 0;
+    text-align: center;
+}
+
+main .enter .right .shop i {
+    color: #999;
+}
+
+main .enter .right li a {
+    width: 100%;
+    height: 100%;
+    color: #999;
+    font-size: 13px;
+}
+
+main .enter .right li a:hover {
+    color: #ddd;
+}
+
+/************************************   main第一部分（隐藏框）  ******************************/
+main .enter .position {
+    position: relative;
+    height: 40px;
+}
+
+main .enter .shop-hid {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 300px;
+    height: 0;
+    line-height: 95px;
+    float: right;
+    background: #fff;
+    color: #333;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    transition: .3s;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 0 10px 50px #ddd;
+    z-index: 2;
+}
+
+/**********************************  main 第二部分(1)  *******************************/
+main .search {
+    height: 100px;
+    clear: both;
+}
+
+main .search .small-search {
+    height: 100px;
+}
+
+main .search .left {
+    height: 100px;
+    width: 20%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+main .search .left img {
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+main .search .left .q4 {
+    width: 70%;
+}
+
+/*************************************  main 第二部分(2) *****************************/
+main .search .center {
+    width: 55%;
+    height: 100px;
+    display: inline-block;
+}
+
+main .search .center ul {
+    width: 100%;
+    height: 100px;
+}
+
+main .search .center ul li {
+    height: 90px;
+    margin: 10px 0 0 5px;
+    padding: 0 10px 0 0;
+    float: left;
+    line-height: 88px;
+}
+
+main .search .center ul li a:hover {
+    color: #ff6700;
+}
+
+/*************************************  main 第二部分(3) *****************************/
+main .search .right {
+    width: 20%;
+    height: 75px;
+    margin-top: 25px;
+    float: right;
+    font-size: 0;
+    position: relative;
+}
+
+main .search .right input {
+    width: 80%;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    font-size: 16px;
+}
+
+main .search .recom {
+    width: 100%;
+    height: 260px;
+    border: 1px solid #ff6700;
+    border-top: 0;
+    display: none;
+    z-index: 1;
+    background: white;
+    position: relative;
+}
+
+main .search .recom li {
+    height: 26px;
+    padding: 0 10px;
+}
+
+main .search .recom li:hover {
+    background: #eee;
+}
+
+main .search .recom li span {
+    width: 85px;
+    height: 26px;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+main .search .small-search .right .recom li span:last-child {
+    float: right;
+    text-align: right;
+    color: #999;
+}
+
+main .search .right i {
+    border: 1px solid #e0e0e0;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    border-left: 0;
+    font-size: 16px;
+    float: right;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+main .search .right .pro a {
+    background: #eee;
+    padding: 3px;
+    font-size: 8px;
+}
+
+main .search .right .pro a:hover {
+    color: white;
+    background: #ff6700;
+    transition: .3s;
+}
+
+main .search .right .pro {
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    left: 35%;
+    top: 15px;
+    font-size: 12px;
+}
+
+/**************************************  main第二部分(隐藏)  ********************************/
+main .search .search-hid {
+    height: 0;
+    background: white;
+    z-index: 2;
+    overflow: hidden;
+    box-shadow: 0 0 10px #bbb;
+    transition: .2s;
+    position: relative;
+}
+
+main .search .search-hid ul {
+    height: 100%;
+    display: none;
+    z-index: 1;
+}
+
+main .search .search-hid img {
+    width: 160px;
+    height: 110px;
+}
+
+main .search .search-hid li:last-child div {
+    border-right: 0;
+}
+
+main .search-hid li div {
+    width: 100%;
+    border-right: 1px solid #999;
+    margin-top: 30px;
+}
+
+main .search .search-hid li {
+    width: 16%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+main .search-hid li span {
+    width: 60px;
+    height: 26px;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 68px;
+    top: 0;
+}
+
+main .search .search-hid ul li p {
+    font-size: 13px;
+    margin: 7px 0 5px 0;
+    color: #333333;
+}
+
+main .search .search-hid ul li p:last-child {
+    margin-top: 0;
+    color: #ff6700;
+}
+
+main .search-hid .tv li:last-child p:last-child {
+    color: #333;
+}
+
+main .search-hid .noopsyche li:last-child p:last-child {
+    color: #333;
+}
+
+main .search-hid .router li:last-child p:last-child {
+    color: #333;
+    margin: 7px 0 5px 0;
+}
+
+/****************************************   main第三部分(1)  **********************************************/
+main .carousel .content {
+    position: relative;
+}
+
+main .carousel .left {
+    width: 20%;
+    height: 100%;
+    padding-top: 20px;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+main .carousel .tu .left li {
+    width: 100%;
+    height: 42px;
+    line-height: 21px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+main .carousel .left li b {
+    float: right;
+    font-size: 20px;
+    color: #bbb;
+}
+
+main .carousel .tu {
+    height: 460px;
+    position: relative;
+}
+
+main .carousel .tu .image img {
+    display: none;
+    width: 100%;
+    height: 460px;
+}
+
+main .carousel .tu .image .flast-img {
+    display: block;
+}
+
+main .carousel .tu .dire-span {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 210px;
+}
+
+main .carousel .tu .dire-span span {
+    width: 30px;
+    height: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #abaa96;
+}
+
+main .carousel .tu .dire-span span:hover {
+    background: rgba(150, 150, 150, .4);
+    color: white;
+}
+
+main .carousel .tu .dire-span span:last-child {
+    float: right;
+    height: 50px;
+    line-height: 50px;
+}
+
+main .carousel .tu .choice {
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    z-index: 1;
+}
+
+main .carousel .tu .choice div {
+    width: 10px;
+    height: 10px;
+    border: 2px solid rgba(150, 150, 150, .6);
+    border-radius: 180px;
+    float: left;
+    margin: 0 6px 0 6px;
+    background: #333333;
+    cursor: pointer;
+}
+
+main .carousel .tu .choice div:first-child {
+    background: white;
+}
+
+/*********************************************  main第三部分(隐藏)  ******************************************************/
+main .carousel .tu .depot {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+    top: 0;
+}
+
+main .carousel .tu .depot ul li {
+    cursor: pointer;
+}
+
+main .carousel .tu .depot ul li:hover {
+    color: #ff6700;
+}
+
+main .carousel .tu .depot .big-depot {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: white;
+    box-shadow: 0 0 10px #bbbbbb;
+    padding: 20px;
+    position: relative;
+}
+
+main .carousel .tu .depot .big-depot ul {
+    width: 25%;
+    padding-left: 10px;
+    float: left;
+}
+
+main .carousel .tu .depot .big-depot ul li {
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+
+main .carousel .tu .depot .big-depot ul li span {
+    height: 70px;
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+main .carousel .tu .depot .big-depot ul li img {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    display: inline;
+}
+
+main .carousel .tu .depot .midd-depot {
+    width: 75%;
+    height: 100%;
+    z-index: 2;
+    background: white;
+    box-shadow: 0 0 10px #bbbbbb;
+    padding: 20px;
+    position: relative;
+}
+
+main .carousel .tu .depot .midd-depot ul {
+    width: 33%;
+    padding-left: 10px;
+    float: left;
+}
+
+main .carousel .tu .depot .midd-depot ul li {
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+
+main .carousel .tu .depot .midd-depot ul li span {
+    height: 70px;
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+main .carousel .tu .depot .midd-depot ul li img {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    display: inline;
+}
+
+main .carousel .tu .depot .small-depot {
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+    background: white;
+    box-shadow: 0 0 10px #bbbbbb;
+    padding: 20px;
+    position: relative;
+}
+
+main .carousel .tu .depot .small-depot ul {
+    width: 50%;
+    padding-left: 10px;
+    float: left;
+}
+
+main .carousel .tu .depot .small-depot ul li {
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+
+main .carousel .tu .depot .small-depot ul li span {
+    height: 70px;
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+main .carousel .tu .depot .small-depot ul li img {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    display: inline;
+}
+
+main .carousel .tu .depot .little-depot {
+    width: 25%;
+    height: 100%;
+    z-index: 2;
+    background: white;
+    box-shadow: 0 0 10px #bbbbbb;
+    padding: 20px;
+    position: relative;
+}
+
+main .carousel .tu .depot .little-depot ul {
+    width: 100%;
+    padding-left: 10px;
+    float: left;
+}
+
+main .carousel .tu .depot .little-depot ul li {
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+
+main .carousel .tu .depot .little-depot ul li span {
+    height: 70px;
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+main .carousel .tu .depot .little-depot ul li img {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    display: inline;
+}
+
+/****************************************   main第四部分(1)    **************************************************/
+main .serve {
+    height: 200px;
+    overflow: hidden;
+}
+
+main .serve .left {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+main .serve .left ul li {
+    width: 33%;
+    height: 76px;
+    border: 1px solid #dddddd;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 12px;
+    background: #ccc;
+    cursor: pointer;
+}
+
+main .serve .left ul li:hover {
+    color: #dddddd;
+}
+
+main .serve .left ul li:hover img {
+    opacity: .4;
+}
+
+main .serve .left ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+/*******************************************   main第四部分(2)   **********************************************/
+main .serve .right {
+    width: 80%;
+    height: 300px;
+    padding: 0 10px 0 10px;
+    float: right;
+}
+
+main .serve .right img {
+    width: 32%;
+    height: 150px;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+main .serve .right img:last-child {
+    margin: 0;
+}
+
+main .serve .right img:hover {
+    box-shadow: 0 0 20px #999;
+    transition: .3s;
+}
+
+/*********************************************  main第五部分(1)  ***************************************************/
+main .seckill .top {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    color: #333;
+}
+
+main .seckill .top p {
+    font-size: 25px;
+    float: left;
+    color: #555;
+}
+
+main .seckill .top div {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    font-size: 0;
+}
+
+main .seckill .top div span {
+    width: 40px;
+    height: 28px;
+    border: 1px solid #999;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+main .seckill .top div span:first-child {
+    color: #aaa;
+    border-right: 0;
+}
+
+/**************************************   main第五部分(2) ***************************************/
+main .seckill {
+    overflow: hidden;
+    height: 550px;
+}
+
+main .seckill .content {
+    height: 450px;
+}
+
+main .seckill .left {
+    width: 20%;
+    height: 340px;
+    background: #f1ebeb;
+    border-top: 1px solid red;
+    text-align: center;
+    padding: 40px;
+    float: left;
+}
+
+main .seckill .left .endtime {
+    color: red;
+    font-size: 20px;
+}
+
+main .seckill .left img {
+    margin: 25px 0;
+}
+
+main .seckill .left .remind {
+    color: #999;
+    margin-bottom: 25px;
+}
+
+main .seckill .left .time {
+    height: 40px;
+}
+
+main .seckill .left .time span {
+    width: 40px;
+    height: 40px;
+    background: #777;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+main .seckill .left .time p {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    vertical-align: top;
+    color: #777;
+}
+
+/****************************************  main第五部分(3)  *****************************************/
+main .seckill .right {
+    width: 80%;
+    float: right;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+}
+
+main .seckill .right figure {
+    width: 12%;
+    height: 340px;
+    background: rgba(250, 250, 250, .4);
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-left: 0.5%;
+}
+
+main .seckill .right figure img {
+    width: 90%;
+    height: 180px;
+    margin-top: 30px;
+}
+
+main .seckill .right figure .spanfirst {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    background: red;
+    color: white;
+}
+
+main .seckill .right .rightfig {
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .3s;
+}
+
+main .seckill .right figure p {
+    margin-top: 20px;
+}
+
+main .seckill .right figure .lastp {
+    font-size: 12px;
+    color: #aaa;
+    margin: 10px 0 20px 0;
+}
+
+main .seckill .right figure del {
+    color: #aaa;
+}
+
+main .seckill .right figure .divspan {
+    color: #ff6700;
+}
+
+main .seckill .bottom img {
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+}
+
+/*****************************************  main第六部分(1)手机  ****************************************/
+main .superbig {
+    width: 100%;
+    height: 7000px;
+    background: #eee;
+    margin-top: 30px;
+    color: #333333;
+}
+
+main .superbig .mobile {
+    padding: 30px 0;
+    height: 900px;
+    position: relative;
+}
+
+main .superbig .mobile .top {
+    height: 45px;
+}
+
+main .superbig .mobile .top p {
+    font-size: 25px;
+    color: #333;
+    float: left;
+}
+
+main .superbig .mobile .top div {
+    float: right;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main .superbig .mobile .top div span:last-child {
+    width: 20px;
+    height: 20px;
+    border-radius: 180px;
+    background: #999999;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+
+main .superbig .mobile .top div:hover span:first-child {
+    color: #ff6700;
+    transition: .3s;
+}
+
+main .superbig .mobile .top div:hover span:last-child {
+    background: #ff6700;
+    transition: .3s;
+}
+
+/******************************************  main第六部分(2)手机   ********************************/
+main .superbig .mobile .left:hover {
+    box-shadow: 0 0 20px #999;
+    margin-top: 0;
+    transition: .3s;
+}
+
+main .superbig .mobile .left {
+    width: 20%;
+    height: 614px;
+    float: left;
+    margin-top: 10px;
+}
+
+main .superbig .mobile .left img {
+    width: 100%;
+    height: 614px;
+    cursor: pointer;
+}
+
+/****************************************  main第六部分(3)手机  **************************************/
+main .superbig .mobile .right {
+    width: 80%;
+    height: 624px;
+    float: right;
+    position: relative;
+}
+
+main .superbig .mobile .right figure {
+    width: 24%;
+    height: 300px;
+    float: left;
+    background: white;
+    margin-left: 1%;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+main .superbig .mobile .right .small-top figure {
+    margin-bottom: 14px;
+}
+
+main .superbig .mobile .right .small-bottom figure span {
+    position: absolute;
+    left: 40%;
+    top: 0;
+    width: 30%;
+    height: 20px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+}
+
+main .superbig .mobile .right figure img {
+    margin-top: 15px;
+    width: 80%;
+    height: 180px;
+}
+
+main .superbig .mobile .right figure .p {
+    font-size: 12px;
+    color: #999999;
+    margin: 5px 0 10px 0;
+}
+
+main .superbig .mobile .right figure .op {
+    color: #ff6700;
+    display: inline-block;
+}
+
+main .superbig .mobile .right figure del {
+    color: #777;
+}
+
+main .superbig .mobile .right figure:hover {
+    box-shadow: 0 0 20px #999;
+    margin-top: 0;
+    transition: .3s;
+}
+
+main .superbig .mobile .right .small-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/**************************************  main第六部分(4)手机  *******************************************/
+main .superbig .mobile .bottom {
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+}
+
+main .superbig .mobile .bottom img {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/******************************************* main第七部分(1)家电 ***********************************************/
+main .superbig .middle {
+    height: 4350px;
+}
+
+main .superbig .small-big .top {
+    height: 45px;
+}
+
+main .superbig .small-big .top p {
+    font-size: 25px;
+    color: #333;
+    float: left;
+}
+
+main .superbig .small-big .top ul {
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+
+main .superbig .small-big .top ul li {
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+main .superbig .small-big .top ul li:first-child {
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+}
+
+/******************************************  main第七部分(2)家电 **************************************/
+main .superbig .small-big .left {
+    width: 20%;
+    height: 629px;
+    float: left;
+    position: relative;
+}
+
+main .superbig .small-big .left img {
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+main .superbig .small-big .left img:hover {
+    box-shadow: 0 0 20px #999;
+    margin-top: 0;
+    transition: .3s;
+}
+
+main .superbig .small-big .left img:first-child {
+    margin-bottom: 4px;
+}
+
+main .superbig .small-big .left img:last-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+main .superbig .small-big .left img:last-child:hover {
+    box-shadow: 0 0 20px #999;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+/******************************************  main第七部分(3)家电 *********************************/
+main .superbig .small-big .right {
+    width: 80%;
+    height: 614px;
+    float: right;
+}
+
+main .superbig .small-big .right ul {
+    width: 100%;
+    height: 629px;
+    position: relative;
+}
+
+main .superbig .small-big .right ul li:first-child {
+    width: 100%;
+    height: 311px;
+}
+
+main .superbig .small-big .right ul li:last-child {
+    width: 100%;
+    height: 311px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+main .superbig .small-big .right ul li figure {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    width: 24%;
+    height: 300px;
+    float: left;
+    margin-left: 1%;
+    background: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+main .superbig .small-big .right ul li figure div {
+    width: 100%;
+    height: 80px;
+    background: #ff6700;
+    text-align: center;
+    padding: 10px 20px;
+    position: absolute;
+    left: 0;
+    bottom: -80px;
+    transition: .3s;
+}
+
+main .superbig .small-big .right ul li figure:hover div {
+    bottom: 0;
+}
+
+main .superbig .small-big .right ul li figure:hover {
+    box-shadow: 0 0 20px #999;
+    margin-top: 0;
+    transition: .3s;
+}
+
+main .superbig .small-big .right ul li figure img {
+    width: 80%;
+    height: 180px;
+    margin-top: 15px;
+}
+
+main .superbig .small-big .right ul li figure span {
+    position: absolute;
+    left: 35%;
+    top: 0;
+    width: 30%;
+    height: 20px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+}
+
+main .superbig .small-big .right ul li figure .green {
+    background: green;
+}
+
+main .superbig .small-big .right ul li figure .p {
+    font-size: 14px;
+}
+
+main .superbig .small-big .right ul li figure .nextp {
+    font-size: 12px;
+    color: #999999;
+    margin: 0 0 5px 0;
+}
+
+main .superbig .small-big .right ul li figure .lastp {
+    color: #ff6700;
+    display: inline-block;
+    margin: 15px 0;
+}
+
+main .superbig .small-big .right ul li figure del {
+    color: #aaa;
+}
+
+main .superbig .small-big .right ul li figure div p:first-child {
+    font-size: 12px;
+    color: white;
+    text-align: left;
+}
+
+main .superbig .small-big .right ul li figure div p:last-child {
+    font-size: 12px;
+    color: #ccc;
+    text-align: left;
+    margin-top: 10px;
+}
+
+main .superbig .small-big .right ul li .lilast {
+    background: #eee;
+    width: 24%;
+    height: 310px;
+    float: right;
+    position: relative;
+}
+
+main .superbig .small-big .right ul li .lilast div {
+    width: 100%;
+    height: 140px;
+    background: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+main .superbig .small-big .right ul li .lilast div:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+main .superbig .small-big .right ul li .lilast div:first-child:hover {
+    box-shadow: 0 0 20px #999;
+    margin-top: 0;
+    transition: .3s;
+}
+
+main .superbig .small-big .right ul li .lilast div:last-child:hover {
+    box-shadow: 0 0 20px #999;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    transition: .3s;
+}
+
+main .superbig .small-big .right ul li .lilast div img {
+    width: 40%;
+    height: 100px;
+    float: right;
+}
+
+main .superbig .small-big .right ul li .lilast div:last-child img {
+    width: 30%;
+    height: 60px;
+    margin-top: 20px;
+}
+
+main .superbig .small-big .right ul li .lilast div p {
+    float: left;
+    margin-top: 20px;
+}
+
+main .superbig .small-big .right ul li .lilast div p span {
+    color: #ff6700;
+    margin-top: 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+main .superbig .small-big .right ul li .lilast div:last-child p span {
+    color: #333333;
+}
+
+/****************************************** main第七部分(4) **************************************************/
+main .superbig .small-big .bottom {
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+}
+
+main .superbig .small-big .bottom img {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/****************************************  main第八——十一部分(样式)**************************************/
+main .superbig .capacity {
+    height: 900px;
+}
+
+main .superbig .household {
+    height: 900px;
+}
+
+main .superbig .match {
+    height: 900px;
+}
+
+main .superbig .part {
+    height: 900px;
+}
+
+main .superbig .capacity .top ul {
+    width: 300px;
+}
+
+main .superbig .small-big .right ul li figure .orange {
+    background: #ff6700;
+}
+
+main .superbig .match .top ul {
+    width: 300px;
+}
+
+main .superbig .rim .top ul {
+    width: 300px;
+}
+
+main .superbig .part .top ul {
+    width: 270px;
+}
+
+/****************************************** main第十二部分(1)  ********************************************************/
+main .superbig .recommend .top {
+    height: 45px;
+}
+
+main .superbig .recommend .top p {
+    font-size: 25px;
+    color: #333;
+    float: left;
+}
+
+main .superbig .recommend .top div {
+    float: right;
+    margin-top: 10px;
+    font-size: 0;
+    cursor: pointer;
+}
+
+main .superbig .recommend .top div span {
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #999999;
+    color: #999;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+main .superbig .recommend .top div span:last-child {
+    color: #333;
+}
+
+main .superbig .recommend .top div span:last-child:hover {
+    color: #ff6700;
+    transition: .3s;
+}
+
+/*****************************************  main第十二部分(2)  ***********************************************/
+main .superbig .recommend .bottom {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+main .superbig .recommend .bottom .movefigure {
+    width: 400%;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .3s;
+}
+
+main .superbig .recommend .bottom figure {
+    float: left;
+    width: 4.7%;
+    margin-left: 0.3%;
+    text-align: center;
+    background: white;
+    margin-top: 0.1%;
+}
+
+main .superbig .recommend .bottom figure:hover {
+    margin-top: 0;
+    box-shadow: 0 0 10px #999;
+    transition: .3s;
+}
+
+main .superbig .recommend .bottom figure img {
+    width: 60%;
+    height: 130px;
+    margin-top: 40px;
+}
+
+main .superbig .recommend .bottom figure:first-child {
+    margin-left: 0;
+}
+
+main .superbig .recommend .bottom figure span {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin: 20px 0 10px 0;
+}
+
+main .superbig .recommend .bottom figure .lastp {
+    color: #ff6700;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+main .superbig .recommend .bottom figure .nextp {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #999;
+}
+
+/***************************************** main第十三部分(1)   ********************************************/
+main .superbig .hotpro .top {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+main .superbig .hotpro .bottom {
+    width: 100%;
+    height: 400px;
+}
+
+main .superbig .hotpro .bottom figure {
+    width: 24%;
+    height: 400px;
+    margin-right: 12px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0;
+    float: left;
+}
+
+main .superbig .hotpro .bottom figure:hover {
+    margin-top: 0;
+    box-shadow: 0 0 10px #999999;
+    transition: .3s;
+}
+
+main .superbig .hotpro .bottom figure:last-child {
+    margin-right: 0;
+    float: left;
+}
+
+main .superbig .hotpro .bottom figure img {
+    width: 100%;
+    height: 200px;
+}
+
+main .superbig .hotpro .bottom figure figcaption {
+    width: 100%;
+    height: 200px;
+    padding: 25px;
+    font-size: 14px;
+    background: white;
+    text-align: left;
+}
+
+main .superbig .hotpro .bottom figure figcaption p:nth-child(1) {
+    height: 70px;
+}
+
+main .superbig .hotpro .bottom figure figcaption p:nth-child(2) {
+    color: #999;
+    font-size: 12px;
+    margin: 25px 0 15px 0;
+}
+
+main .superbig .hotpro .bottom figure figcaption p:nth-child(3) {
+    display: inline;
+}
+
+main .superbig .hotpro .bottom figure figcaption span {
+    color: #ff6700;
+    width: 50px;
+    height: 16px;
+    line-height: 16px;
+    display: inline-block;
+    border-left: 2px solid #ccc;
+    text-align: center;
+}
+
+/****************************************  main第十四部分  *****************************************/
+main .superbig .matter .top {
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+main .superbig .matter {
+    width: 100%;
+    height: 480px;
+}
+
+main .superbig .matter ul li {
+    background: white;
+    border-top: 1px solid #ff6700;
+    float: left;
+    width: 24.25%;
+    height: 420px;
+    margin-left: 1%;
+    text-align: center;
+    position: relative;
+}
+
+main .superbig .matter ul li .center {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 190px;
+    left: 0;
+}
+
+main .superbig .matter ul li .center span {
+    width: 20px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    background: rgba(99, 99, 99, .4);
+    color: white;
+    display: none;
+}
+
+main .superbig .matter ul li:hover .center span {
+    display: inline-block;
+    cursor: pointer;
+}
+
+main .superbig .matter ul li .center .left {
+    float: left;
+}
+
+main .superbig .matter ul li .center .right {
+    display: inline-block;
+    float: right;
+    display: none;
+}
+
+main .superbig .matter ul li .dian {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+main .superbig .matter ul .one .dian {
+    margin-left: 5%;
+}
+
+main .superbig .matter ul li .dian div {
+    width: 10px;
+    height: 10px;
+    background: #666;
+    border-radius: 180px;
+    margin-left: 10%;
+    float: left;
+}
+
+main .superbig .matter ul li .dian .bast {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #ff6700;
+    background: white;
+}
+
+main .superbig .matter ul li .dian div:first-child {
+    margin-left: 32%;
+}
+
+main .superbig .matter ul li:hover {
+    margin-top: 0;
+    box-shadow: 0 0 10px #999;
+    transition: .3s;
+}
+
+main .superbig .matter li {
+    margin-top: 10px;
+}
+
+main .superbig .matter li:first-child {
+    margin-left: 0;
+}
+
+main .superbig .matter ul h2 {
+    color: #ff6700;
+    font-weight: 100;
+}
+
+main .superbig .matter .one-div {
+    width: 100%;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+
+main .superbig .matter .one .one-div .lenght {
+    width: 300%;
+    height: 280px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .3s;
+}
+
+main .superbig .matter ul .lenght {
+    width: 400%;
+    height: 280px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+main .superbig .matter ul .one .lenght figure {
+    width: 33.3%;
+    float: left;
+}
+
+main .superbig .matter ul .lenght figure {
+    width: 25%;
+    float: left;
+}
+
+main .superbig .matter ul .lenght figure h4 {
+    font-size: 20px;
+    margin-top: 0;
+    position: relative;
+}
+
+main .superbig .matter ul .lenght figure .p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    position: relative;
+}
+
+main .superbig .matter ul .lenght figure .last {
+    display: inline-block;
+    width: 40%;
+    height: 30px;
+    border: 1px solid #ff6700;
+    text-align: center;
+    line-height: 30px;
+    color: #ff6700;
+    margin: 30px 0;
+    position: relative;
+}
+
+main .superbig .matter ul .lenght figure .nextp {
+    font-size: 14px;
+    color: #333;
+    margin: 15px 0;
+    position: relative;
+}
+
+main .superbig .matter ul .three .lenght figure img {
+    margin-top: 50px;
+    position: relative;
+}
+
+main .superbig .matter ul .fovr .lenght figure img {
+    margin-top: 50px;
+    position: relative;
+}
+
+/************************************  main第十五部分(1)  *************************************/
+main .superbig .video {
+    margin-top: 20px;
+}
+
+main .superbig .video .top {
+    height: 45px;
+}
+
+main .superbig .video .top p {
+    font-size: 25px;
+    color: #333;
+    float: left;
+}
+
+main .superbig .video .top div {
+    float: right;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main .superbig .video .top div span:last-child {
+    width: 20px;
+    height: 20px;
+    border-radius: 180px;
+    background: #999999;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+
+main .superbig .video .top div:hover span:first-child {
+    color: #ff6700;
+    transition: .3s;
+}
+
+main .superbig .video .top div:hover span:last-child {
+    background: #ff6700;
+    transition: .3s;
+}
+
+/***********************************  main第十五部分(2) ******************************************/
+main .superbig .video .bottom figure {
+    width: 24.25%;
+    height: 280px;
+    background: white;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    float: left;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+main .superbig .video .bottom figure:first-child {
+    margin-left: 0;
+}
+
+main .superbig .video .bottom figure:hover {
+    margin-top: 0;
+    transition: .3s;
+}
+
+main .superbig .video .bottom figure:hover .img {
+    background: #ff6700;
+    border: #ff6700;
+    line-height: 32px;
+    transition: .3s;
+}
+
+main .superbig .video .bottom figure img {
+    width: 100%;
+    height: 160px
+}
+
+main .superbig .video .bottom figure .img {
+    width: 40px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    line-height: 25px;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+main .superbig .video .bottom figure .img img {
+    width: 20px;
+    height: 20px;
+}
+
+main .superbig .video .bottom figure figcaption p {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+main .superbig .video .bottom figure figcaption p:hover {
+    color: #ff6700;
+    transition: .3s;
+}
+
+main .superbig .video .bottom figure figcaption span {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ccc;
+    display: inline-block;
+}
+
+/*********************************  main第十六部分 *************************************/
+main .help {
+    height: 100%;
+}
+
+main .help ul {
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+main .help ul li {
+    width: 20%;
+    height: 40px;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+main .help ul li:hover {
+    color: #ff6700;
+}
+
+main .help ul li .ib {
+    display: none;
+}
+
+main .help ul li:hover .ia {
+    display: none;
+}
+
+main .help ul li:hover .ib {
+    display: inline-block;
+}
+
+main .help ul li:first-child {
+    border-left: 0;
+}
+
+main .help ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+/************************************************  main第十七部分 **************************************/
+main .low-help {
+    height: 200px;
+    margin-top: 40px;
+}
+
+main .low-help ul {
+    width: 80%;
+    float: left;
+}
+
+main .low-help ul li {
+    width: 16.6%;
+    float: left;
+}
+
+main .low-help ul li p {
+    margin-bottom: 20px;
+}
+
+main .low-help ul li span {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #999999;
+    cursor: pointer;
+}
+
+main .low-help ul li span:hover {
+    color: #ff6700;
+}
+
+main .low-help .right {
+    width: 20%;
+    height: 138px;
+    float: right;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+
+main .low-help .right span {
+    font-size: 20px;
+    color: #ff6700;
+}
+
+main .low-help .right p {
+    font-size: 14px;
+    color: #999999;
+    margin: 10px 0 15px 0;
+}
+
+main .low-help .right .a {
+    width: 60%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ff6700;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+main .low-help .right a {
+    color: #ff6700;
+    font-size: 12px;
+}
+
+main .low-help .right .a:hover {
+    background: #ff6700;
+}
+
+main .low-help .right .a:hover .ia {
+    display: none;
+}
+
+main .low-help .right .ib {
+    display: none;
+}
+
+main .low-help .right .a:hover .ib {
+    display: inline-block;
+}
+
+main .low-help .right .a:hover a {
+    color: white;
+}
+
+main .low-help .right img {
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+}
+
+/**********************************************  footer  ***************************************/
+footer .coop {
+    height: 100px;
+}
+
+footer .coop div {
+    float: left;
+}
+
+footer .coop .logo {
+    width: 5%;
+}
+
+footer .coop .logo .img {
+    width: 100%;
+    height: 57px;
+}
+
+footer .coop .center {
+    width: 55%;
+    height: 57px;
+    margin-left: 1%;
+}
+
+footer .coop .center ul li {
+    float: left;
+    font-size: 12px;
+    color: #666;
+    border-left: 1px solid #ccc;
+    padding: 0 2px;
+    height: 33%;
+    cursor: pointer;
+}
+
+footer .coop .center ul li:hover {
+    color: #ff6700;
+}
+
+footer .coop .center ul li:first-child {
+    border-left: 0;
+}
+
+footer .coop .center .brand {
+    font-size: 12px;
+    color: #999;
+    height: 33%;
+}
+
+footer .coop .center .brand a {
+    color: #999999;
+}
+
+footer .coop .center .brand a:hover {
+    color: #ff6700;
+}
+
+footer .coop .center div:last-child {
+    color: #999999;
+    font-size: 13px;
+}
+
+footer .coop .right {
+    width: 39%;
+}
+
+footer .coop .right img {
+    width: 19%;
+    height: 30px;
+}
+
+footer .over {
+    text-align: center;
+    font-size: 20px;
+    color: #999999;
+}
+
+/********************************  视频*****************************************/
+.fix-video {
+    width: 100%;
+    height: 800px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(150, 150, 150, .4);
+}
+
+.fix-video div {
+    width: 50%;
+    height: 540px;
+    margin: 150px 0 0 25%;
+    /*position: fixed;*/
+    /*top: -500px;*/
+    /*left: 20%;*/
+    /*z-index: 20;*/
+    transition: .3s;
+}
+
+.fix-video video {
+    width: 100%;
+}
+
+.fix-video div ul {
+    height: 60px;
+    background: white;
+    color: #333;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.fix-video div ul li:first-child {
+    float: left;
+}
+
+.fix-video div ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+.fix-video div ul li:last-child {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 180px;
+    float: right;
+    text-align: center;
+    line-height: 34px;
+}
+
+.fix-video div ul .li .imgb {
+    display: none;
+}
+
+.fix-video div ul .li:hover {
+    background: red;
+}
+
+.fix-video div ul .li:hover .imga {
+    display: none;
+}
+
+.fix-video div ul .li:hover .imgb {
+    display: inline-block;
+}
+
+/*************************************  右边窗口定位  *******************************************/
+aside {
+    width: 80px;
+    height: 350px;
+    position: fixed;
+    right: 0;
+    top: 40%;
+}
+
+aside img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+aside .ib {
+    display: none;
+}
+
+aside ul li {
+    width: 100%;
+    height: 80px;
+    background: white;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+aside ul li:hover {
+    color: #ff6700;
+    cursor: pointer;
+}
+
+aside ul li:hover .ia {
+    display: none;
+}
+
+aside ul li:hover .ib {
+    display: inline-block;
+}
+
+aside ul li:last-child {
+    display: none;
+    margin-top: 20px;
+}
